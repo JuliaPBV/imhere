@@ -18,7 +18,7 @@ export default function Home() {
           Terça, 8 de Janeiro de 2025.
         </Text>
 
-          
+      <View style={styles.form}>
         <TextInput 
         style={styles.input} 
         placeholder="Nome do participante"
@@ -30,7 +30,7 @@ export default function Home() {
             +
           </Text>
         </TouchableOpacity>
-
+      </View>
       </View>
   )
 }
